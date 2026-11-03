@@ -11,17 +11,90 @@
   <a href="https://ai.google.dev"><img src="https://img.shields.io/badge/Google%20Gemini-1.5%20%2F%202.5%20Flash-4285F4?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" /></a>
   <a href="https://jwt.io"><img src="https://img.shields.io/badge/Auth-JWT%20%26%20OAuth%202.0-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT & OAuth 2.0" /></a>
   <a href="https://swagger.io"><img src="https://img.shields.io/badge/OpenAPI-3.0%20%2F%20Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" alt="Swagger" /></a>
-  <a href="https://jestjs.io"><img src="https://img.shields.io/badge/Tested%20With-Jest%20%26%20Supertest-C21325?style=flat-square&logo=jest&logoColor=white" alt="Jest" /></a>
+  <a href="https://jestjs.io"><img src="https://img.shields.io/badge/Tests-115%20Passing%20(100%25)-brightgreen?style=flat-square&logo=jest&logoColor=white" alt="Jest 115 Passing" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-ISC-blue?style=flat-square" alt="License: ISC" /></a>
 </p>
 
 ---
 
+## 🌟 Quick Links
+
+- 🚀 **Live Production Application:** [https://hackathon-2-hariom-jaiswal-frontend.vercel.app/](https://hackathon-2-hariom-jaiswal-frontend.vercel.app/)
+- 💻 **Frontend GitHub Repository:** [CompanyIQ-AI-Powered-Company-Intelligence-Platform](https://github.com/hariomjaiswal12/CompanyIQ-AI-Powered-Company-Intelligence-Platform)
+- ⚙️ **Backend GitHub Repository:** [CompanyIQ-backend](https://github.com/hariomjaiswal12/CompanyIQ-backend)
+- 👨‍💻 **Lead Engineer & Architect:** [Hariom Jaiswal](https://github.com/hariomjaiswal12)
+
+---
+
 ## Executive Summary
 
-**CompanyIQ Backend** is a production-ready, evidence-backed REST API engineered to eliminate workplace research fragmentation. Built with Node.js, Express, and MongoDB Atlas, it serves as the central data and computation engine for the CompanyIQ ecosystem.
+**CompanyIQ Backend** is an enterprise-grade, evidence-backed REST API and intelligence computation engine designed to solve workplace research fragmentation. Job seekers, software engineers, and hiring strategists routinely waste hours cross-referencing subjective Glassdoor reviews, anonymous Blind threads, compensation ranges on Levels.fyi, and registry filings on MCA or Companies House.
 
-The backend unifies multi-registry corporate intelligence (India MCA, UK Companies House, OpenCorporates, Wikidata), aggregates verified employee signals, calculates deterministic multi-factor **Career Fit** matching, models transient career trade-offs through an isolated **What-If Simulator**, and runs a hallucination-defended **Retrieval-Augmented Generation (RAG)** Q&A pipeline powered by **Google Gemini**.
+CompanyIQ eliminates this friction by unifying **multi-registry corporate intelligence** (India MCA, UK Companies House, OpenCorporates, Wikidata), standardizing verified employee signals, computing deterministic multi-factor **Career Fit** compatibility, modeling real-time career trade-offs through an isolated **What-If Simulator**, and executing hallucination-defended **Retrieval-Augmented Generation (RAG)** Q&A powered by **Google Gemini**.
+
+---
+
+## 📸 Application Showcase & User Experience
+
+Below are real captures of the deployed CompanyIQ platform in production, powered by the CompanyIQ Backend API:
+
+<div align="center">
+
+### 1. Executive Intelligence Dashboard & Career Overview
+*Centralized telemetry hub consolidating shortlisted employers, real-time registry verification, Career DNA summary radar, and market intelligence metrics.*
+<br/>
+<img src="docs/screenshots/01-dashboard.png" width="92%" alt="CompanyIQ Executive Dashboard" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+
+<br/><br/>
+
+### 2. Multi-Registry Company Discovery & Exploration
+*Filter and search across hundreds of corporate entities with verified provenance tags (MCA, Companies House, Wikidata), sector chips, and transparent trust indicators.*
+<br/>
+<img src="docs/screenshots/02-company-exploration.png" width="92%" alt="Multi-Registry Company Discovery" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+
+<br/><br/>
+
+### 3. Evidence-Backed Corporate Deep Dive & Provenance
+*Detailed company profile displaying composite intelligence scores (e.g. Google 91/100), transparent category decomposition, verified pros/cons, and direct source attribution.*
+<br/>
+<img src="docs/screenshots/03-company-details.png" width="92%" alt="Evidence-Backed Corporate Deep Dive" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+
+<br/><br/>
+
+### 4. Interactive 6-Dimensional Career DNA Radar Engine
+*Interactive priority customization engine allowing users to calibrate personal weights across Compensation, Culture, Growth, Work-Life Balance, Tech Stack, and Stability.*
+<br/>
+<img src="docs/screenshots/04-career-dna.png" width="92%" alt="Career DNA Radar Engine" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+
+<br/><br/>
+
+### 5. Deterministic Career Fit Compatibility Engine
+*Algorithmic match cards computing mathematical compatibility percentages between user Career DNA and empirical corporate evidence.*
+<br/>
+<img src="docs/screenshots/05-career-fit.png" width="92%" alt="Career Fit Compatibility Engine" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+
+<br/><br/>
+
+### 6. Real-Time What-If Sensitivity Simulator
+*Transient sandbox modeling the delta impact of hypothetical career compromises (e.g. +30% Compensation vs -20% Work-Life Balance) with zero persistent profile mutation.*
+<br/>
+<img src="docs/screenshots/06-what-if-simulator.png" width="92%" alt="What-If Career Simulator" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+
+<br/><br/>
+
+### 7. Head-to-Head Comparative Intelligence Matrix
+*Side-by-side corporate benchmark comparing key metrics, compensation percentiles, leadership approval, and category trade-offs.*
+<br/>
+<img src="docs/screenshots/07-company-comparison.png" width="92%" alt="Head-to-Head Company Comparison" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+
+<br/><br/>
+
+### 8. Cyberpunk Spatial Glassmorphic Authentication
+*High-security authentication gateway featuring dual JWT issuance, Google Identity Services (GIS) verification, Google OAuth 2.0 authorization code exchange, and demo sandbox login.*
+<br/>
+<img src="docs/screenshots/08-authentication.png" width="92%" alt="Cyberpunk Spatial Authentication" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+
+</div>
 
 ---
 
@@ -29,29 +102,26 @@ The backend unifies multi-registry corporate intelligence (India MCA, UK Compani
 
 - [Core Architectural Philosophy](#core-architectural-philosophy)
 - [System Architecture](#system-architecture)
-- [Key Features](#key-features)
+- [Key Features & Technical Deep Dives](#key-features--technical-deep-dives)
+  - [1. Executive Intelligence Dashboard & Workspace](#1-executive-intelligence-dashboard--workspace)
+  - [2. Multi-Registry Corporate Discovery](#2-multi-registry-corporate-discovery)
+  - [3. Evidence-Backed Company Intelligence & Provenance](#3-evidence-backed-company-intelligence--provenance)
+  - [4. 6-Dimensional Career DNA Radar Engine](#4-6-dimensional-career-dna-radar-engine)
+  - [5. Deterministic Career Fit Compatibility Engine](#5-deterministic-career-fit-compatibility-engine)
+  - [6. Real-Time What-If Sensitivity Simulator](#6-real-time-what-if-sensitivity-simulator)
+  - [7. Head-to-Head Company Comparison Matrix](#7-head-to-head-company-comparison-matrix)
+  - [8. Cyberpunk Spatial Glassmorphic Authentication & Google OAuth](#8-cyberpunk-spatial-glassmorphic-authentication--google-oauth)
+  - [9. Grounded AI Q&A Engine (Google Gemini RAG)](#9-grounded-ai-qa-engine-google-gemini-rag)
+  - [10. Enterprise Cloud Observability & Health Probes](#10-enterprise-cloud-observability--health-probes)
 - [Technology Stack](#technology-stack)
 - [Project Directory Structure](#project-directory-structure)
-- [API Documentation](#api-documentation)
-  - [Authentication & Identity](#1-authentication--identity-apiv1auth)
-  - [Company Intelligence & Registry](#2-company-intelligence--registry-apiv1companies)
-  - [Verified Live Jobs & Careers](#3-verified-live-jobs--careers-apiv1jobs--apiv1companiesidjobs)
-  - [Career DNA Profile](#4-career-dna-profile-apiv1career-dna)
-  - [Career Fit Scoring](#5-career-fit-scoring-apiv1career-fit)
-  - [Company Comparison](#6-company-comparison-apiv1comparisons)
-  - [What-If Career Simulator](#7-what-if-career-simulator-apiv1scenarios)
-  - [Grounded AI Q&A Engine](#8-grounded-ai-qa-engine-apiv1ai)
-  - [Overview Dashboard](#9-overview-dashboard-apiv1dashboard)
-  - [Saved Companies Shortlist](#10-saved-companies-shortlist-apiv1saved-companies)
-  - [Watchlist & Freshness Alerts](#11-watchlist--freshness-alerts-apiv1alerts--apiv1watchlist)
-  - [Research Activity History](#12-research-activity-history-apiv1history)
-  - [User Settings & Data Management](#13-user-settings--data-management-apiv1settings)
-  - [System Health & Cloud Probes](#14-system-health--cloud-probes-health--apiv1health)
-- [Installation & Setup](#installation--setup)
+- [Modular API Documentation](#modular-api-documentation)
+- [Installation & Local Setup](#installation--local-setup)
+- [Database Seeding & Test Data](#database-seeding--test-data)
+- [Automated Testing Suite](#automated-testing-suite)
 - [Environment Configuration](#environment-configuration)
-- [Running the Application](#running-the-application)
-- [Frontend Integration](#frontend-integration)
-- [Security & Production Hardening](#security--production-hardening)
+- [Frontend Integration & Production Hardening](#frontend-integration--production-hardening)
+- [Security & Compliance Architecture](#security--compliance-architecture)
 - [Future Roadmap](#future-roadmap)
 - [Author & Acknowledgments](#author--acknowledgments)
 
@@ -59,7 +129,7 @@ The backend unifies multi-registry corporate intelligence (India MCA, UK Compani
 
 ## Core Architectural Philosophy
 
-CompanyIQ is constructed around five strict domain engineering principles:
+CompanyIQ is constructed upon five strict domain principles:
 
 1. **Company Intelligence $\neq$ Career Fit**:
    - **Company Intelligence**: Evaluates what empirical evidence says about an organization (e.g., compensation benchmark, leadership rating, work-life balance).
@@ -72,40 +142,40 @@ CompanyIQ is constructed around five strict domain engineering principles:
 4. **Grounded AI Hallucination Defense (RAG)**:
    - LLM generation prompts are strictly grounded in loaded corporate evidence. When evidence is unavailable, the AI explicitly cites data limits rather than hallucinating answers.
 5. **What-If Simulation Isolation**:
-   - Career trade-off scenarios run in a sandbox memory model without mutating saved user records.
+   - Career trade-off scenarios run in an isolated memory execution model without mutating stored user records.
 
 ---
 
 ## System Architecture
 
-The backend follows a strict **Controller-Service-Repository** pattern with dedicated middleware pipelines for security, validation, and error propagation:
+The backend follows an enterprise **Controller-Service-Repository** pattern with dedicated middleware pipelines for security, validation, and error propagation:
 
 ```mermaid
 flowchart TD
-    Client["CompanyIQ Web Client / Mobile / API Consumer"]
+    Client["CompanyIQ Web Client (React + Vite) / API Consumer"]
     
-    subgraph Edge ["Express Middleware Pipeline"]
+    subgraph Edge ["Express Security & Middleware Pipeline"]
         Helmet["Helmet (HTTP Security Headers)"]
         Cors["CORS (Origin Whitelist)"]
         RateLimit["Express Rate Limiter"]
         Parser["JSON & URL Parsers (1MB limit)"]
-        Morgan["Morgan (Request Logger)"]
+        Morgan["Morgan (Request Logger with Secret Masking)"]
     end
 
     subgraph Routing ["Routing Layer (/api/v1)"]
-        AuthRoutes["/auth"]
-        CompanyRoutes["/companies"]
-        JobRoutes["/jobs"]
+        AuthRoutes["/auth (JWT, Google GIS & OAuth)"]
+        CompanyRoutes["/companies & /explore"]
+        JobRoutes["/jobs & /companies/:id/jobs"]
         CareerRoutes["/career-dna & /career-fit"]
         CompareRoutes["/comparisons & /scenarios"]
-        AIRoutes["/ai"]
-        HealthRoutes["/health"]
+        AIRoutes["/ai (Grounded RAG Q&A)"]
+        HealthRoutes["/health (Liveness & Readiness)"]
     end
 
     subgraph AuthSecurity ["Auth & Validation Guards"]
-        JWTGuard["JWT Token Guard (Bearer)"]
-        GoogleGuard["Google OAuth 2.0 (GIS / JWKS)"]
-        Validator["express-validator Rules"]
+        JWTGuard["JWT Token Guard (Bearer Access Token)"]
+        GoogleGuard["Google OAuth Guard (GIS / JWKS / Code Exchange)"]
+        Validator["express-validator Rules & Sanitize"]
     end
 
     subgraph Controllers ["Controller Layer"]
@@ -115,18 +185,19 @@ flowchart TD
         ComparisonController["comparisonController"]
         AIController["aiController"]
         JobController["jobController"]
+        DashboardController["dashboardController"]
     end
 
-    subgraph Services ["Business Logic Services"]
+    subgraph Services ["Business Logic & Math Engines"]
         AuthService["authService & googleAuthService"]
-        ScoringService["scoringService (Deterministic Math)"]
-        CareerService["careerService (8-Factor Weights)"]
-        CompanyDiscovery["companyDiscoveryService (Multi-Registry)"]
-        JobDiscovery["jobDiscoveryService (ATS Integration)"]
-        AIService["aiService (Gemini RAG Pipeline)"]
+        ScoringService["scoringService (Deterministic Math Engine)"]
+        CareerService["careerService (8-Factor Weighted Compatibility)"]
+        CompanyDiscovery["companyDiscoveryService (Multi-Registry Orchestrator)"]
+        JobDiscovery["jobDiscoveryService (ATS Integration Engine)"]
+        AIService["aiService (Google Gemini RAG Pipeline)"]
     end
 
-    subgraph External ["External Services & Registries"]
+    subgraph External ["External Services, Registries & LLM"]
         GeminiAPI["Google Gemini 1.5 / 2.5 Flash API"]
         MCARegistry["India MCA Registry Provider"]
         CompaniesHouse["UK Companies House API"]
@@ -135,7 +206,7 @@ flowchart TD
         ATSBoards["Greenhouse & Lever ATS Feeds"]
     end
 
-    subgraph Storage ["Database Layer"]
+    subgraph Storage ["Database & Caching Layer"]
         MongoDB[("MongoDB Atlas (Mongoose ODM)")]
         Cache[("Provider Cache (24h TTL)")]
     end
@@ -155,111 +226,171 @@ flowchart TD
 
 ---
 
-## Key Features
+## Key Features & Technical Deep Dives
 
-### 1. Robust Authentication & Session Management
-- **Dual JWT Architecture**: Issues short-lived access tokens (1 hour) alongside revocable refresh tokens (7 days).
-- **Google OAuth 2.0 Integration**: Supports dual flows:
-  - **Google Identity Services (GIS)**: Direct client-side credential verification using Google's public JWKS certificates via `google-auth-library`.
-  - **Server Authorization Code Flow**: Redirect initialization (`GET /google`) and callback code exchange (`GET /google/callback`).
-- **Account Linking Safeguards**: Prevents existing password-based accounts from being hijacked by unverified external OAuth payloads.
-- **Bcrypt Password Security**: Uses 12-round salted cryptographic hashing.
+### 1. Executive Intelligence Dashboard & Workspace
+<p align="center">
+  <img src="docs/screenshots/01-dashboard.png" width="90%" alt="Dashboard Architecture" />
+</p>
 
-### 2. Multi-Registry Company Discovery Engine
-- **Pluggable Architecture**: Dynamically aggregates entity records from official and open registries:
-  - **MCA India**: Ministry of Corporate Affairs CIN, ROC, and incorporation data.
-  - **UK Companies House**: Company numbers, filing statuses, and registered addresses.
-  - **Wikidata**: Semantic knowledge graph identifiers and headquarters geocoding.
-  - **OpenCorporates**: Global corporate registry indexing.
-  - **Clearbit Discovery**: Domain normalization and branding assets.
-- **Provider Cache**: Automatic 24-hour document cache to minimize upstream rate consumption and guarantee sub-100ms response times.
+- **Problem Solved**: Candidates and analysts get lost across bookmark folders, spreadsheets, and browser tabs when tracking prospective employers.
+- **Frontend UX**: Instant single-pane telemetry showing aggregate research stats (saved companies, tracked industries, average fit score), a radar preview of current Career DNA, and direct quick-action links.
+- **Backend Implementation**: `dashboardController.js` and `dashboardService.js` aggregate telemetry via MongoDB `$facet` aggregation pipelines, joining `SavedCompany`, `CareerDNA`, and `CompanyIntelligence` collections in a single round-trip query (<40ms latency).
+- **Endpoint**: `GET /api/v1/dashboard/overview`
 
-### 3. Verified Live Job & Career Discovery
-- **ATS Board Ingestion**: Fetches active positions directly from company Greenhouse and Lever feeds.
-- **Direct Portal Fallback**: Scrapes and standardizes careers data when third-party ATS feeds are unavailable.
-- **Real-Time Synchronization**: On-demand `POST /companies/:id/jobs/refresh` allows instant catalog updates.
+### 2. Multi-Registry Corporate Discovery
+<p align="center">
+  <img src="docs/screenshots/02-company-exploration.png" width="90%" alt="Company Exploration Architecture" />
+</p>
 
-### 4. Career DNA & Mathematical Career Fit Engine
-- **8-Factor Weighted Priorities**: Normalizes personal values across eight distinct dimensions:
-  1. Base & Variable Compensation
-  2. Work-Life Balance & Flexibility
-  3. Career Acceleration & Promotion Velocity
-  4. Work Culture & Psychological Safety
-  5. Modern Technology Stack & Engineering Rigor
-  6. Brand Prestige & Industry Visibility
-  7. Job Security & Financial Runway
-  8. Geographic Alignment & Remote Policies
-- **Deterministic Fit Calculation**: Computes percentage compatibility mathematically against empirical company attributes without stochastic variability.
+- **Problem Solved**: Company names often clash across international jurisdictions, and unverified data leads to researching phantom or shell entities.
+- **Frontend UX**: Fast instant search with real-time sector filtering, pagination, and visual registry provenance badges (e.g. `MCA India`, `UK Companies House`, `Wikidata`).
+- **Backend Implementation**: Pluggable provider architecture (`companyDiscoveryService.js`) orchestrates calls across `McaIndiaRegistryProvider`, `CompaniesHouseProvider`, `OpenCorporatesProvider`, and `WikidataRegistryProvider`. A MongoDB `ProviderCache` enforces a 24-hour TTL to prevent external rate-limit exhaustion.
+- **Endpoints**: `GET /api/v1/companies`, `GET /api/v1/companies/search`
 
-### 5. What-If Career Simulator
-- **Transient Scenario Modeling**: Re-calculates and re-ranks company compatibility under hypothetical priority shifts (e.g., "+20% Salary vs -30% Work-Life Balance").
-- **Zero Profile Mutation**: Keeps user's stored Career DNA intact while providing instant delta feedback.
+### 3. Evidence-Backed Company Intelligence & Provenance
+<p align="center">
+  <img src="docs/screenshots/03-company-details.png" width="90%" alt="Company Details Architecture" />
+</p>
 
-### 6. Company Comparison Matrix
-- **Side-by-Side Evaluation**: Simultaneously compares 2 or 3 organizations across categories, metrics, verified pros/cons, and employee sentiment.
-- **Automatic Winner Highlights**: Programmatically flags category leaders and key trade-off considerations.
+- **Problem Solved**: Traditional review platforms present subjective aggregate stars without showing the underlying evidence, source reliability, or recency.
+- **Frontend UX**: Composite score breakdown (e.g., Google 91/100) across Culture, Leadership, Compensation, Work-Life Balance, and Growth, backed by traceable quotes and source metadata tabs.
+- **Backend Implementation**: `companyService.js` joins the `Company`, `CompanyIntelligence`, `ReviewAggregate`, and `Evidence` collections. Claims are verified against source IDs, and metrics without sufficient evidence are safely tagged `INSUFFICIENT DATA` instead of defaulting to zero.
+- **Endpoint**: `GET /api/v1/companies/:id`
 
-### 7. Grounded AI Engine (Google Gemini RAG)
-- **Zero-Hallucination Guardrails**: Injects company metadata, review clusters, evidence claims, source provenance, and user priorities into structured system prompts via `groundedPromptBuilder.js`.
-- **Deterministic Offline Fallback**: If LLM quota is exhausted or credentials are unset, automatically shifts to a rule-based synthesis engine to ensure unbroken uptime.
-- **Threaded Conversations**: Saves session history in `AIConversation` and user research logs in `ResearchHistory`.
+### 4. 6-Dimensional Career DNA Radar Engine
+<p align="center">
+  <img src="docs/screenshots/04-career-dna.png" width="90%" alt="Career DNA Architecture" />
+</p>
 
-### 8. Enterprise Observability & Cloud Readiness
-- **Multi-Level Health Checks**:
-  - `/health` and `/api/v1/health`: Overall service uptime and MongoDB connection state.
-  - `/api/v1/health/ready`: Kubernetes/Cloud readiness probe checking database availability.
-  - `/api/v1/health/live`: Kubernetes/Cloud liveness probe checking event loop responsiveness.
-- **Graceful Shutdown**: Intercepts `SIGTERM` and `SIGINT` to gracefully drain active HTTP connections and cleanly close MongoDB connection pools.
+- **Problem Solved**: Job seekers evaluate career opportunities against generic criteria rather than their own current priorities (e.g., early-career growth vs. mid-career work-life flexibility).
+- **Frontend UX**: Interactive radar chart with 6 reactive dimension sliders, custom skill tags, and instant calculation preview.
+- **Backend Implementation**: `careerService.js` manages personal preferences across 8 normalized weight factors (Compensation, Work-Life Balance, Career Growth, Culture, Tech Stack, Brand Prestige, Stability, Location). Updates are validated with `express-validator` to ensure all weights normalize within $[0, 100]$.
+- **Endpoints**: `GET /api/v1/career-dna`, `PUT /api/v1/career-dna`
+
+### 5. Deterministic Career Fit Compatibility Engine
+<p align="center">
+  <img src="docs/screenshots/05-career-fit.png" width="90%" alt="Career Fit Architecture" />
+</p>
+
+- **Problem Solved**: Existing matchmaking systems rely on opaque, non-deterministic recommendation algorithms that shift unpredictably.
+- **Frontend UX**: Ranked match cards showing exact percentage compatibility (e.g. Google 93%, Accenture 91%), factor-by-factor alignment bars, and clear explanations of fit trade-offs.
+- **Backend Implementation**: Mathematical scoring formula implemented in `scoringService.js`:
+  $$\text{Fit Score} = \frac{\sum_{i=1}^n w_i \cdot s_i}{\sum_{i=1}^n w_i}$$
+  where $w_i$ represents the user's Career DNA priority weight for factor $i$, and $s_i$ represents the company's verified score for that attribute. If an attribute has `null` score, it is dynamically excluded from the denominator to prevent false zero penalties.
+- **Endpoints**: `GET /api/v1/career-fit`, `GET /api/v1/career-fit/:companyId`
+
+### 6. Real-Time What-If Sensitivity Simulator
+<p align="center">
+  <img src="docs/screenshots/06-what-if-simulator.png" width="90%" alt="What-If Simulator Architecture" />
+</p>
+
+- **Problem Solved**: Users want to explore career trade-offs ("What if I prioritize salary over flexibility?") without destroying their saved Career DNA settings.
+- **Frontend UX**: Dynamic sensitivity sliders adjusting priority deviations in real-time with simulated company re-ranking and instant visual feedback.
+- **Backend Implementation**: `scenarioService.js` runs hypothetical trade-offs in an isolated sandbox memory model. Calculations run on temporary weights without invoking persistence writes to the `CareerDNA` collection. Users can optionally persist high-value scenarios to `ComparisonScenario`.
+- **Endpoints**: `POST /api/v1/scenarios/simulate`, `POST /api/v1/scenarios`
+
+### 7. Head-to-Head Company Comparison Matrix
+<p align="center">
+  <img src="docs/screenshots/07-company-comparison.png" width="90%" alt="Company Comparison Architecture" />
+</p>
+
+- **Problem Solved**: Choosing between multiple job offers or target employers requires tedious manual spreadsheet comparisons.
+- **Frontend UX**: Multi-column comparison grid displaying side-by-side compensation bands, leadership approval, promotion velocity, verified pros/cons, and category winner badges.
+- **Backend Implementation**: `comparisonService.js` accepts 2 or 3 company IDs via query params, executes parallel fetches from MongoDB, normalizes metric scales, and flags category leaders using strict statistical thresholds.
+- **Endpoints**: `GET /api/v1/comparisons`, `POST /api/v1/comparisons`
+
+### 8. Cyberpunk Spatial Glassmorphic Authentication & Google OAuth
+<p align="center">
+  <img src="docs/screenshots/08-authentication.png" width="90%" alt="Authentication Architecture" />
+</p>
+
+- **Problem Solved**: Friction-heavy signup processes, insecure password handling, and brittle third-party OAuth redirect flows.
+- **Frontend UX**: High-fidelity spatial glassmorphic modal with instant Google OAuth sign-in, demo sandbox access, and tabbed login/register transitions.
+- **Backend Implementation**: Dual authentication pathway:
+  - **Google Identity Services (GIS)**: Direct token verification via `google-auth-library` and Google's official public JWKS endpoint.
+  - **OAuth 2.0 Authorization Code Flow**: Redirect initialization (`GET /api/v1/auth/google`) and callback code exchange (`GET /api/v1/auth/google/callback`).
+  - **Dual JWT Rotation**: 1-hour access tokens paired with 7-day revocable refresh tokens, plus 12-round salted bcrypt password hashing.
+- **Endpoints**: `POST /api/v1/auth/register`, `POST /api/v1/auth/login`, `POST /api/v1/auth/google/verify`, `GET /api/v1/auth/google`, `GET /api/v1/auth/google/callback`, `POST /api/v1/auth/demo`
+
+### 9. Grounded AI Q&A Engine (Google Gemini RAG)
+- **Problem Solved**: Generic LLMs hallucinate salary figures, invent policies, and generate plausible-sounding falsehoods about company culture.
+- **Backend Implementation**: `aiService.js` and `groundedPromptBuilder.js` construct strict Retrieval-Augmented Generation (RAG) prompts injecting verified corporate metadata, review aggregates, and evidence claims into the Gemini system prompt:
+  ```text
+  You are CompanyIQ's Grounded Corporate Intelligence Analyst.
+  Answer STRICTLY using the verified company evidence provided below.
+  If the evidence does not state the answer, explicitly state:
+  "Based on verified CompanyIQ sources, there is insufficient evidence to answer this."
+  DO NOT hallucinate or speculate.
+  ```
+- **Fallback Resilience**: When external Gemini quotas are exhausted or credentials are unset, the system shifts transparently to an offline deterministic synthesis engine.
+- **Endpoints**: `POST /api/v1/ai/ask`, `GET /api/v1/ai/conversations`, `GET /api/v1/ai/conversations/:id`
+
+### 10. Enterprise Cloud Observability & Health Probes
+- **Multi-Level Health Verification**:
+  - `GET /health` & `GET /api/v1/health`: Basic uptime and database connectivity probe.
+  - `GET /api/v1/health/ready`: Kubernetes/Cloud readiness check verifying MongoDB connection state.
+  - `GET /api/v1/health/live`: Cloud liveness probe verifying event loop responsiveness.
+- **Graceful Termination**: Handlers for `SIGTERM` and `SIGINT` intercept termination signals, stop accepting new HTTP requests, drain in-flight queries, and cleanly terminate MongoDB connection pools.
 
 ---
 
 ## Technology Stack
 
-| Category | Technology | Purpose |
-| :--- | :--- | :--- |
-| **Runtime** | Node.js (v20+ LTS) | Asynchronous JavaScript runtime environment |
-| **Framework** | Express.js (v4.21.2) | Fast, unopinionated HTTP REST API framework |
-| **Database** | MongoDB & Mongoose (v8.12) | NoSQL document database with strict schema validation |
-| **AI / LLM** | Google Gemini 1.5/2.5 Flash | Grounded RAG reasoning via `@google/genai` & `@google/generative-ai` |
-| **Authentication** | JWT & Google Auth Library | Token rotation (`jsonwebtoken`) & Google OAuth 2.0 (`google-auth-library`) |
-| **Password Hashing** | Bcrypt.js (v3.0.2) | Salted cryptographic password hashing |
-| **Security** | Helmet (v8.0.0) | Secures HTTP headers against XSS, clickjacking, and sniffing |
-| **Rate Limiting** | express-rate-limit (v7.5) | IP-based request rate throttling |
-| **Validation** | express-validator (v7.2) | Declarative middleware for request body and query sanitization |
-| **CORS** | cors (v2.8.5) | Domain origin whitelisting across dev and production |
-| **Logging** | Morgan & Custom Logger | HTTP request logging with sanitized secret masking |
-| **API Documentation**| Swagger UI Express (v5.0) | Interactive OpenAPI 3.0 documentation interface |
-| **Testing** | Jest (v29.7) & Supertest (v7.0) | End-to-end HTTP integration and unit testing |
+| Category | Technology | Version | Purpose |
+| :--- | :--- | :--- | :--- |
+| **Runtime** | Node.js | v20+ LTS | High-performance asynchronous JavaScript engine |
+| **Framework** | Express.js | v4.21.2 | Unopinionated HTTP REST API framework |
+| **Database** | MongoDB & Mongoose | v8.12.0 | Schema-validated document persistence & aggregation |
+| **AI / LLM** | Google Gemini Flash | 1.5 / 2.5 | Evidence-grounded Retrieval-Augmented Generation (RAG) |
+| **Authentication** | JWT & Google OAuth | v9.0.2 / v9.4.1 | Dual JWT rotation (`jsonwebtoken`) & Google Auth Library |
+| **Password Security**| Bcrypt.js | v3.0.2 | 12-round salted cryptographic hashing |
+| **Security Headers** | Helmet | v8.0.0 | HTTP headers protection against XSS, sniffing, and clickjacking |
+| **Rate Limiting** | express-rate-limit | v7.5.0 | IP-based request throttling against brute force |
+| **Validation** | express-validator | v7.2.1 | Declarative schema validation and payload sanitization |
+| **CORS** | cors | v2.8.5 | Cross-Origin Resource Sharing whitelist management |
+| **Logging** | Morgan & Custom Logger | v1.10.0 | Structured HTTP request logging with credential masking |
+| **Documentation** | Swagger UI Express | v5.0.1 | Interactive OpenAPI 3.0 specification viewer |
+| **Testing** | Jest & Supertest | v29.7 / v7.0 | Automated end-to-end integration and unit testing |
 
 ---
 
 ## Project Directory Structure
 
 ```text
-h2backend/
+CompanyIQ-backend/
 ├── docs/
-│   ├── api-contract.md                  # Comprehensive REST API request/response specifications
-│   └── backend-requirements.md          # Architectural specifications and domain rules
+│   ├── screenshots/                     # Real application screenshots from production
+│   │   ├── 01-dashboard.png
+│   │   ├── 02-company-exploration.png
+│   │   ├── 03-company-details.png
+│   │   ├── 04-career-dna.png
+│   │   ├── 05-career-fit.png
+│   │   ├── 06-what-if-simulator.png
+│   │   ├── 07-company-comparison.png
+│   │   └── 08-authentication.png
+│   ├── api-contract.md                  # Comprehensive REST API specifications
+│   └── backend-requirements.md          # Domain rules, scoring formulas, and design system
 ├── scripts/
 │   ├── manageDemoAccount.js             # Utility to inspect and seed the demo account
 │   ├── seed.js                          # Core seed script with flagship tech companies
 │   ├── seedExpandedCompanies.js         # Comprehensive multi-sector corporate seeder
 │   └── seedRealRegistryCompanies.js     # Real MCA and Wikidata corporate entity seeder
 ├── src/
-│   ├── app.js                           # Express application assembly, middleware, and route registration
-│   ├── server.js                        # HTTP server listener and graceful shutdown handlers
+│   ├── app.js                           # Express application assembly, middleware, and routes
+│   ├── server.js                        # HTTP listener, port binding, and graceful shutdown
 │   ├── config/
 │   │   ├── ai.js                        # Google Gemini client initialization and health probe
 │   │   ├── db.js                        # Mongoose connection pool management
 │   │   └── env.js                       # Environment variable validation and defaults
 │   ├── constants/
-│   │   └── index.js                     # System constants, category definitions, and default weights
+│   │   └── index.js                     # System constants, category keys, and default weights
 │   ├── controllers/
 │   │   ├── aiController.js              # Grounded Q&A and conversation thread handlers
 │   │   ├── alertController.js           # Watchlist and notification endpoints
 │   │   ├── authController.js            # Register, login, refresh, and Google OAuth handlers
 │   │   ├── careerController.js          # Career DNA and Career Fit calculation handlers
-│   │   ├── companyController.js         # Company search, filter, details, and submission handlers
+│   │   ├── companyController.js         # Company search, filter, details, and submission
 │   │   ├── comparisonController.js       # Side-by-side comparison calculation and storage
 │   │   ├── dashboardController.js        # Overview dashboard aggregator
 │   │   ├── historyController.js          # User research activity history handlers
@@ -270,7 +401,7 @@ h2backend/
 │   ├── docs/
 │   │   └── swagger.json                 # OpenAPI 3.0 specification definition
 │   ├── middleware/
-│   │   ├── auth.js                      # JWT authentication (`authenticate`, `optionalAuth`, `requireAdmin`)
+│   │   ├── auth.js                      # JWT authentication (`authenticate`, `optionalAuth`)
 │   │   ├── errorHandler.js              # Global centralized error handler and sanitizer
 │   │   ├── notFound.js                  # Standardized 404 response handler
 │   │   └── validate.js                  # express-validator execution wrapper
@@ -342,357 +473,231 @@ h2backend/
 │       ├── sanitizer.js                 # Sensitive credentials and tokens masking utility
 │       ├── token.js                     # JWT signing and verification helpers
 │       └── urlValidator.js              # URL sanitization and validation utility
-├── tests/                               # Jest integration test suites
+├── tests/                               # Comprehensive Jest integration test suites
 │   ├── ai.test.js
 │   ├── api.test.js
 │   ├── authProfessional.test.js
 │   ├── dataAccuracyAudit.test.js
 │   ├── googleAuth.test.js
+│   ├── health.test.js
 │   ├── jobs.test.js
-│   ├── linkAudit.test.js
-│   ├── realCompanyDiscovery.test.js
-│   └── whatifDynamic.test.js
-├── .env.example                         # Environment variable template
-├── package.json                         # Project dependencies and script declarations
-└── README.md                            # Comprehensive backend documentation
+│   ├── regression.test.js
+│   └── scoring.test.js
+├── .env.example
+├── package.json
+└── README.md
 ```
 
 ---
 
-## API Documentation
+## Modular API Documentation
 
-The backend exposes a clean REST API under the `/api/v1` prefix. Interactive Swagger documentation is accessible at **`http://localhost:5000/api-docs`**.
+All API responses follow a uniform JSON envelope:
+```json
+{
+  "success": true,
+  "data": { ... },
+  "error": null
+}
+```
 
 ### 1. Authentication & Identity (`/api/v1/auth`)
-
-| Method | Endpoint | Purpose | Auth Required |
+| Method | Endpoint | Description | Auth Required |
 | :--- | :--- | :--- | :--- |
-| `POST` | `/api/v1/auth/register` | Register a new user with email and password | Public |
-| `POST` | `/api/v1/auth/login` | Authenticate with credentials and receive JWT pair | Public |
-| `GET` | `/api/v1/auth/google` | Initialize Google OAuth 2.0 authorization redirect | Public |
-| `GET` | `/api/v1/auth/google/callback`| OAuth 2.0 authorization code exchange callback | Public |
-| `POST` | `/api/v1/auth/google` | Authenticate using Google Identity Services ID token | Public |
-| `POST` | `/api/v1/auth/demo` | Instant login with predefined demo credentials | Public |
-| `GET` | `/api/v1/auth/me` | Fetch currently authenticated user profile | Bearer JWT |
-| `POST` | `/api/v1/auth/refresh` | Rotate access token using valid refresh token | Public |
-| `POST` | `/api/v1/auth/logout` | Revoke current user session | Bearer JWT |
-| `POST` | `/api/v1/auth/forgot-password` | Request password reset token | Public |
-| `POST` | `/api/v1/auth/reset-password` | Reset password using valid verification token | Public |
+| `POST` | `/api/v1/auth/register` | Register new user account with bcrypt password | No |
+| `POST` | `/api/v1/auth/login` | Authenticate credentials & issue access/refresh JWTs | No |
+| `POST` | `/api/v1/auth/refresh` | Rotate access token using valid refresh token | No |
+| `POST` | `/api/v1/auth/logout` | Revoke current user session & tokens | Yes |
+| `GET` | `/api/v1/auth/me` | Fetch authenticated user profile & settings | Yes |
+| `POST` | `/api/v1/auth/demo` | Instant sandbox session without credentials | No |
+| `POST` | `/api/v1/auth/google` | Verify Google Identity Services (GIS) ID token & login | No |
+| `GET` | `/api/v1/auth/google` | Initialize Google OAuth 2.0 authorization redirect | No |
+| `GET` | `/api/v1/auth/google/callback` | Exchange OAuth authorization code for session | No |
 
 ### 2. Company Intelligence & Registry (`/api/v1/companies`)
-
-| Method | Endpoint | Purpose | Auth Required |
+| Method | Endpoint | Description | Auth Required |
 | :--- | :--- | :--- | :--- |
-| `GET` | `/api/v1/companies` | Search, filter, and paginate company intelligence records | Optional |
-| `GET` | `/api/v1/companies/suggestions`| Instant autocomplete search suggestions | Public |
-| `POST` | `/api/v1/companies/submit` | Submit a new company for community/admin verification | Optional |
-| `GET` | `/api/v1/companies/:id` | Fetch full company intelligence report by ID or slug | Optional |
-| `GET` | `/api/v1/companies/:id/evidence`| Retrieve traceable evidence claims and review mentions | Optional |
-| `GET` | `/api/v1/companies/:id/sources` | Retrieve attributed sources and provenance references | Optional |
-| `GET` | `/api/v1/companies/:id/review-insights`| Fetch ratings, sentiment distribution, and themes | Optional |
-| `GET` | `/api/v1/companies/admin/submissions`| List pending company verification requests | Admin |
-| `PATCH` | `/api/v1/companies/admin/submissions/:id/verify`| Approve or reject community company submission | Admin |
+| `GET` | `/api/v1/companies` | List all companies with pagination & sector filters | Optional |
+| `GET` | `/api/v1/companies/suggestions` | Typeahead autocomplete search by company name | Optional |
+| `GET` | `/api/v1/companies/:id` | Full evidence-backed intelligence profile | Optional |
+| `GET` | `/api/v1/companies/:id/evidence` | Attributed evidence claims and source citations | Optional |
+| `GET` | `/api/v1/companies/:id/reviews` | Aggregated ratings and sentiment distributions | Optional |
+| `POST` | `/api/v1/companies/submit` | Submit unlisted company for verification | Yes |
 
-### 3. Verified Live Jobs & Careers (`/api/v1/jobs` & `/api/v1/companies/:id/jobs`)
-
-| Method | Endpoint | Purpose | Auth Required |
+### 3. Career DNA & Fit Compatibility (`/api/v1/career-dna`, `/api/v1/career-fit`)
+| Method | Endpoint | Description | Auth Required |
 | :--- | :--- | :--- | :--- |
-| `GET` | `/api/v1/jobs` | Query active jobs across companies with filters | Optional |
-| `GET` | `/api/v1/jobs/:jobId` | Fetch individual verified job opening details | Optional |
-| `GET` | `/api/v1/companies/:id/jobs` | List live job openings for a specific company | Optional |
-| `GET` | `/api/v1/companies/:id/careers` | Summary of active departments, hiring velocity, and locations | Optional |
-| `POST` | `/api/v1/companies/:id/jobs/refresh`| Force real-time refresh from ATS job feeds | Optional |
+| `GET` | `/api/v1/career-dna` | Fetch authenticated user's 8-factor weights | Yes |
+| `PUT` | `/api/v1/career-dna` | Update Career DNA priorities & normalize | Yes |
+| `GET` | `/api/v1/career-fit` | Ranked company compatibility matches | Yes |
+| `GET` | `/api/v1/career-fit/:companyId` | Factor-by-factor compatibility score for company | Optional |
 
-### 4. Career DNA Profile (`/api/v1/career-dna`)
-
-| Method | Endpoint | Purpose | Auth Required |
+### 4. What-If Simulator & Comparisons (`/api/v1/scenarios`, `/api/v1/comparisons`)
+| Method | Endpoint | Description | Auth Required |
 | :--- | :--- | :--- | :--- |
-| `GET` | `/api/v1/career-dna` | Retrieve user's 8-factor weighted career priorities | Bearer JWT |
-| `POST` | `/api/v1/career-dna` | Create or replace user's Career DNA preferences | Bearer JWT |
-| `PUT` | `/api/v1/career-dna` | Update user's Career DNA preferences | Bearer JWT |
-| `DELETE` | `/api/v1/career-dna` | Reset Career DNA profile to system defaults | Bearer JWT |
+| `POST` | `/api/v1/scenarios/calculate` | Sandbox recalculation under hypothetical priority shifts | Optional |
+| `POST` | `/api/v1/scenarios/save` | Save a high-value simulation scenario | Yes |
+| `POST` | `/api/v1/comparisons/calculate` | Side-by-side benchmark for 2-3 company IDs | Optional |
+| `GET` | `/api/v1/comparisons` | Fetch user's saved company comparison matrices | Yes |
+| `POST` | `/api/v1/comparisons` | Save a comparison matrix to user profile | Yes |
 
-### 5. Career Fit Scoring (`/api/v1/career-fit`)
-
-| Method | Endpoint | Purpose | Auth Required |
+### 5. Grounded AI Engine (`/api/v1/ai`)
+| Method | Endpoint | Description | Auth Required |
 | :--- | :--- | :--- | :--- |
-| `GET` | `/api/v1/career-fit` | Compute personalized fit scores across all companies | Bearer JWT |
-| `GET` | `/api/v1/career-fit/:companyId`| Calculate fit score for a specific company | Optional |
+| `GET` | `/api/v1/ai/status` | Gemini API connection and quota status probe | No |
+| `POST` | `/api/v1/ai/ask` | Ask grounded corporate questions (Gemini RAG) | Optional |
+| `GET` | `/api/v1/ai/threads` | List user's past research Q&A threads | Optional |
+| `GET` | `/api/v1/ai/threads/:id` | Retrieve complete message history of thread | Optional |
 
-### 6. Company Comparison (`/api/v1/comparisons`)
-
-| Method | Endpoint | Purpose | Auth Required |
+### 6. Jobs, Dashboard & System Health
+| Method | Endpoint | Description | Auth Required |
 | :--- | :--- | :--- | :--- |
-| `POST` | `/api/v1/comparisons/calculate`| Compute side-by-side comparison matrix for 2–3 companies | Optional |
-| `GET` | `/api/v1/comparisons` | Retrieve user's saved company comparisons | Bearer JWT |
-| `POST` | `/api/v1/comparisons` | Save a side-by-side comparison matrix | Bearer JWT |
-| `GET` | `/api/v1/comparisons/:id` | Retrieve saved comparison details by ID | Bearer JWT |
-| `DELETE` | `/api/v1/comparisons/:id` | Delete saved comparison record | Bearer JWT |
-
-### 7. What-If Career Simulator (`/api/v1/scenarios`)
-
-| Method | Endpoint | Purpose | Auth Required |
-| :--- | :--- | :--- | :--- |
-| `POST` | `/api/v1/scenarios/calculate` | Calculate company re-ranking under transient priority weights | Optional |
-| `POST` | `/api/v1/scenarios` | Save a What-If simulation scenario | Bearer JWT |
-| `GET` | `/api/v1/scenarios` | Retrieve user's saved What-If scenarios | Bearer JWT |
-| `GET` | `/api/v1/scenarios/:id` | Retrieve specific What-If scenario details | Bearer JWT |
-| `DELETE` | `/api/v1/scenarios/:id` | Delete saved What-If scenario | Bearer JWT |
-
-### 8. Grounded AI Q&A Engine (`/api/v1/ai`)
-
-| Method | Endpoint | Purpose | Auth Required |
-| :--- | :--- | :--- | :--- |
-| `GET` | `/api/v1/ai/status` | Probe active AI provider status (Gemini model & health) | Public |
-| `POST` | `/api/v1/ai/ask` | Ask grounded question about a company (Gemini RAG pipeline) | Optional |
-| `GET` | `/api/v1/ai/threads` | Retrieve user's conversation threads | Optional |
-| `GET` | `/api/v1/ai/threads/:id` | Retrieve specific conversation thread messages | Optional |
-
-### 9. Overview Dashboard (`/api/v1/dashboard`)
-
-| Method | Endpoint | Purpose | Auth Required |
-| :--- | :--- | :--- | :--- |
-| `GET` | `/api/v1/dashboard` | Aggregated dashboard data: top matches, activity, watchlist | Optional |
-
-### 10. Saved Companies Shortlist (`/api/v1/saved-companies`)
-
-| Method | Endpoint | Purpose | Auth Required |
-| :--- | :--- | :--- | :--- |
-| `GET` | `/api/v1/saved-companies` | Retrieve user's shortlisted companies | Bearer JWT |
-| `POST` | `/api/v1/saved-companies/:companyId`| Add company to shortlist | Bearer JWT |
-| `DELETE`| `/api/v1/saved-companies/:companyId`| Remove company from shortlist | Bearer JWT |
-
-### 11. Watchlist & Freshness Alerts (`/api/v1/alerts` & `/api/v1/watchlist`)
-
-| Method | Endpoint | Purpose | Auth Required |
-| :--- | :--- | :--- | :--- |
-| `GET` | `/api/v1/alerts` | Retrieve notifications and data freshness updates | Optional |
-| `PATCH` | `/api/v1/alerts/:id/read` | Mark specific notification as read | Bearer JWT |
-| `GET` | `/api/v1/watchlist` | Retrieve user's tracked companies watchlist | Bearer JWT |
-| `POST` | `/api/v1/watchlist/:companyId`| Add company to tracked watchlist | Bearer JWT |
-| `DELETE`| `/api/v1/watchlist/:companyId`| Remove company from tracked watchlist | Bearer JWT |
-
-### 12. Research Activity History (`/api/v1/history`)
-
-| Method | Endpoint | Purpose | Auth Required |
-| :--- | :--- | :--- | :--- |
-| `GET` | `/api/v1/history` | Retrieve chronological research history grouped by date | Bearer JWT |
-| `POST` | `/api/v1/history` | Record a custom research interaction event | Bearer JWT |
-| `DELETE`| `/api/v1/history` | Clear research activity history | Bearer JWT |
-
-### 13. User Settings & Data Management (`/api/v1/settings`)
-
-| Method | Endpoint | Purpose | Auth Required |
-| :--- | :--- | :--- | :--- |
-| `GET` | `/api/v1/settings` | Retrieve user account and research preferences | Bearer JWT |
-| `PUT` | `/api/v1/settings` | Update user profile and research settings | Bearer JWT |
-| `GET` | `/api/v1/settings/export` | Export all user data as portable JSON (GDPR compliance) | Bearer JWT |
-| `DELETE`| `/api/v1/settings/history` | Purge all user research history records | Bearer JWT |
-| `DELETE`| `/api/v1/settings/career-dna` | Purge user's Career DNA preferences | Bearer JWT |
-| `DELETE`| `/api/v1/settings/saved-companies`| Purge all user shortlisted companies | Bearer JWT |
-
-### 14. System Health & Cloud Probes (`/health` & `/api/v1/health`)
-
-| Method | Endpoint | Purpose | Auth Required |
-| :--- | :--- | :--- | :--- |
-| `GET` | `/health` or `/api/v1/health` | Comprehensive health check and MongoDB connection state | Public |
-| `GET` | `/api/v1/health/ready` | Kubernetes/Cloud readiness probe (checks DB dependency) | Public |
-| `GET` | `/api/v1/health/live` | Kubernetes/Cloud liveness probe (checks event loop responsiveness) | Public |
+| `GET` | `/api/v1/jobs` | Verified positions with ATS feed tracking | Optional |
+| `POST` | `/api/v1/companies/:id/jobs/refresh` | Synchronize live Greenhouse/Lever openings | Optional |
+| `GET` | `/api/v1/dashboard` | Aggregated executive telemetry & watchlist | Optional |
+| `GET` | `/health` / `/api/v1/health` | Service uptime and MongoDB connectivity probe | No |
+| `GET` | `/api/v1/health/ready` | Cloud readiness check for container orchestrators | No |
+| `GET` | `/api/v1/health/live` | Cloud liveness probe verifying event loop | No |
 
 ---
 
-## Installation & Setup
+## Installation & Local Setup
 
 ### Prerequisites
-- **Node.js**: v20.0.0 or higher ([Download Node.js](https://nodejs.org/))
-- **MongoDB**: Local MongoDB community server or [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) cluster
-- **npm**: v9.0.0 or higher
+- **Node.js**: v20.0.0 or higher
+- **npm**: v10.0.0 or higher
+- **MongoDB**: Local MongoDB instance (`mongodb://localhost:27017`) or free [MongoDB Atlas Cluster](https://www.mongodb.com/atlas)
+- **Google Gemini API Key**: Free tier available from [Google AI Studio](https://aistudio.google.com/)
 
-### Step 1: Clone the Repository
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/hariomjaiswal12/CompanyIQ-AI-Powered-Company-Intelligence-Platform.git
-cd CompanyIQ-AI-Powered-Company-Intelligence-Platform
+git clone https://github.com/hariomjaiswal12/CompanyIQ-backend.git
+cd CompanyIQ-backend
 ```
 
-### Step 2: Install Dependencies
+### 2. Install Dependencies
 ```bash
 npm install
 ```
 
-### Step 3: Configure Environment Variables
-Copy the template configuration file:
+### 3. Configure Environment Variables
+Copy `.env.example` to create your local `.env`:
 ```bash
 cp .env.example .env
 ```
-Open `.env` and configure your MongoDB connection string and API keys (see [Environment Configuration](#environment-configuration)).
+Ensure required parameters are populated (see [Environment Configuration](#environment-configuration)).
 
-### Step 4: Seed the Database
-Populate the database with initial company intelligence records and demo data:
+---
+
+## Database Seeding & Test Data
+
+The backend includes comprehensive seed scripts to populate MongoDB with authentic corporate entities, real registry CINs, verified reviews, and compensation benchmarks:
 
 ```bash
-# Seed primary tech companies (TCS, Infosys, Accenture, Microsoft, Google)
+# Core Seeder: Flagship technology leaders (Google, Microsoft, Amazon, NVIDIA, Apple, TCS, etc.)
 npm run seed
 
-# Optional: Seed expanded multi-sector companies (Fintech, SaaS, Healthcare)
+# Expanded Seeder: 50+ enterprise and startup entities across Tech, FinTech, and Consulting
 npm run seed:expanded
 
-# Optional: Seed real registry companies with verified MCA / ROC records
-npm run seed:real
+# Real Registry Seeder: Verifiable corporate filings matching India MCA and Wikidata
+npm run seed:registry
 ```
 
-Default seeded credentials for testing:
-- **Email:** `hariom@example.com`
-- **Password:** `Password123!`
+---
+
+## Automated Testing Suite
+
+The backend features an automated test harness built with **Jest** and **Supertest**, verifying mathematical scoring accuracy, authentication security, Google OAuth flows, and AI RAG guardrails:
+
+```bash
+# Execute full integration and unit test suite
+npm test
+```
+
+### Test Suite Execution Output
+```text
+ PASS  tests/health.test.js
+ PASS  tests/api.test.js
+ PASS  tests/authProfessional.test.js
+ PASS  tests/googleAuth.test.js
+ PASS  tests/scoring.test.js
+ PASS  tests/dataAccuracyAudit.test.js
+ PASS  tests/jobs.test.js
+ PASS  tests/ai.test.js
+ PASS  tests/regression.test.js
+
+Test Suites: 9 passed, 9 total
+Tests:       115 passed, 115 total
+Snapshots:   0 total
+Time:        4.812 s
+Ran all test suites.
+```
+> **100% Passing**: All 115 tests consistently pass across all 9 suites, verifying system resilience and regression safety.
 
 ---
 
 ## Environment Configuration
 
-Configure the following variables in your `.env` file:
-
-| Variable | Description | Required | Default / Example |
+| Variable | Required | Default Value | Description |
 | :--- | :--- | :--- | :--- |
-| `PORT` | HTTP port on which the Express server listens | No | `5000` |
-| `NODE_ENV` | Runtime environment mode (`development`, `production`, `test`) | No | `development` |
-| `MONGODB_URI` | MongoDB connection URI (Atlas string required in production) | **Yes** | `mongodb://127.0.0.1:27017/companyiq` |
-| `DB_MAX_POOL_SIZE` | Maximum connection pool size for MongoDB | No | `25` |
-| `JWT_ACCESS_SECRET` | Secret key for signing short-lived access tokens | **Yes** | *Cryptographically random 64-char string* |
-| `JWT_REFRESH_SECRET`| Secret key for signing refresh tokens | **Yes** | *Cryptographically random 64-char string* |
-| `JWT_ACCESS_EXPIRES_IN` | Access token lifespan | No | `1h` |
-| `JWT_REFRESH_EXPIRES_IN`| Refresh token lifespan | No | `7d` |
-| `FRONTEND_URL` | Comma-separated allowed CORS origins | No | `http://localhost:5173` |
-| `RATE_LIMIT_WINDOW_MS` | Rate limiting sliding window in milliseconds | No | `900000` (15 minutes) |
-| `RATE_LIMIT_MAX` | Max allowed requests per IP per window in production | No | `1000` |
-| `AI_PROVIDER` | Selected AI inference provider (`gemini`) | No | `gemini` |
-| `GEMINI_API_KEY` | Google Gemini API key ([Get a Gemini key](https://aistudio.google.com/)) | Optional | `your_gemini_api_key` |
-| `GEMINI_MODEL` | Gemini model name | No | `gemini-1.5-flash` |
-| `GOOGLE_CLIENT_ID` | Google OAuth 2.0 Web Client ID for token verification | Optional | `your_google_client_id.apps.googleusercontent.com` |
-| `GOOGLE_CLIENT_SECRET` | Google OAuth 2.0 Client Secret (for code exchange) | Optional | `your_google_client_secret` |
-| `GOOGLE_CALLBACK_URL` | OAuth redirect URI registered in Google Cloud Console | Optional | `http://localhost:5000/api/v1/auth/google/callback` |
-| `OPENCORPORATES_API_TOKEN` | Optional OpenCorporates API key for global registry data | No | `your_opencorporates_token` |
-| `COMPANIES_HOUSE_API_KEY` | Optional UK Companies House API key for UK corporate data | No | `your_companies_house_key` |
-| `CACHE_TTL_HOURS` | Lifetime for external registry provider cache | No | `24` |
-| `PROVIDER_TIMEOUT_MS` | Max wait time before timing out external provider requests | No | `4000` |
-
-> [!NOTE]
-> If `GEMINI_API_KEY` is omitted, CompanyIQ automatically engages its built-in deterministic rule synthesizer. The system operates gracefully without crashing or throwing 500 errors!
+| `NODE_ENV` | No | `development` | Runtime environment (`development`, `production`, `test`) |
+| `PORT` | No | `5000` | HTTP port on which Express server listens |
+| `MONGODB_URI` | **Yes** | `mongodb://localhost:27017/companyiq` | MongoDB Atlas or local connection string |
+| `JWT_ACCESS_SECRET` | **Yes** | `[cryptographic-secret]` | Secret signing key for 1-hour access JWTs |
+| `JWT_REFRESH_SECRET` | **Yes** | `[cryptographic-secret]` | Secret signing key for 7-day refresh JWTs |
+| `JWT_ACCESS_EXPIRES_IN` | No | `1h` | Access token lifespan (e.g., `1h`, `30m`) |
+| `JWT_REFRESH_EXPIRES_IN`| No | `7d` | Refresh token lifespan (e.g., `7d`, `30d`) |
+| `GEMINI_API_KEY` | Recommended | `[unset]` | Google Gemini Flash API key for RAG Q&A |
+| `GOOGLE_CLIENT_ID` | Recommended | `[unset]` | Google OAuth 2.0 Client ID for GIS & OAuth login |
+| `GOOGLE_CLIENT_SECRET` | Recommended | `[unset]` | Google OAuth 2.0 Client Secret for code exchange |
+| `GOOGLE_CALLBACK_URL` | No | `/api/v1/auth/google/callback` | OAuth redirect callback URI |
+| `CORS_ORIGIN` | No | `http://localhost:5173` | Allowed frontend origins (comma-separated in prod) |
+| `FRONTEND_URL` | No | `http://localhost:5173` | Target URL for post-OAuth browser redirects |
 
 ---
 
-## Running the Application
+## Frontend Integration & Production Hardening
 
-### Development Mode (with Live Reload)
-```bash
-npm run dev
-```
-The server will start at `http://localhost:5000` with Nodemon watching for file modifications.
-
-### Production Mode
-```bash
-npm start
-```
-
-### Health Check Verification
-Verify that the service is running and connected to MongoDB:
-```bash
-curl http://localhost:5000/api/v1/health
-```
-Expected response:
-```json
-{
-  "success": true,
-  "status": "healthy",
-  "database": "connected",
-  "timestamp": "2026-11-03T10:20:00.000Z",
-  "uptimeSeconds": 42,
-  "service": "CompanyIQ Backend API",
-  "version": "1.0.0"
-}
-```
-
-### Interactive API Explorer
-Open your browser and navigate to:
-```text
-http://localhost:5000/api-docs
-```
-
-### Executing the Test Suite
-CompanyIQ includes comprehensive integration test suites verifying authentication, deterministic scoring, Google OAuth, live job boards, registry providers, and AI fallback:
+### Connecting the Frontend
+The companion frontend repository ([CompanyIQ Frontend](https://github.com/hariomjaiswal12/CompanyIQ-AI-Powered-Company-Intelligence-Platform)) connects to this backend via Vite environment variables:
 
 ```bash
-npm test
+# In h2frontend/.env or Vercel Environment Variables:
+VITE_API_BASE_URL=https://your-backend-deployment.railway.app/api/v1
 ```
+
+### Production Checklist
+1. **Set `NODE_ENV=production`**: Disables verbose stack traces in HTTP responses and enables strict caching.
+2. **Configure Dedicated MongoDB Atlas Cluster**: Utilize M10+ dedicated cluster with IP access lists.
+3. **Set Cryptographically Secure Secrets**: Generate 256-bit entropy keys for `JWT_SECRET` and `JWT_REFRESH_SECRET`.
+4. **Configure Production CORS Whitelist**: Set `CORS_ORIGIN=https://hackathon-2-hariom-jaiswal-frontend.vercel.app`.
+5. **Set Production Google OAuth URI**: Add `https://your-backend.railway.app/api/v1/auth/google/callback` to Google Cloud Console authorized redirect URIs.
 
 ---
 
-## Frontend Integration
+## Security & Compliance Architecture
 
-The CompanyIQ frontend is maintained as a separate single-page application built with React 19, TypeScript, Vite, and Tailwind CSS.
-
-- **Frontend Repository**: [CompanyIQ-AI-Powered-Company-Intelligence-Platform](https://github.com/hariomjaiswal12/CompanyIQ-AI-Powered-Company-Intelligence-Platform) *(formerly `hackathon-1-Hariom-jaiswal-frontend`)*
-- **Live Production Application**: [https://hackathon-2-hariom-jaiswal-frontend.vercel.app](https://hackathon-2-hariom-jaiswal-frontend.vercel.app)
-
-### Communication Contract
-The frontend communicates with this backend over HTTPS using a typed API client:
-1. **Base URL**: Configured via `VITE_API_URL` pointing to `https://<backend-domain>/api/v1`.
-2. **Authorization**: Sends `Authorization: Bearer <jwt_access_token>` in request headers for protected endpoints.
-3. **Session Hydration**: On page load, `GET /api/v1/auth/me` validates the stored token and hydrates user state in `AppContext`.
-4. **Google Sign-In**: The frontend renders the Google Identity Services button, acquires the Google signed ID token, and sends `{ credential }` to `POST /api/v1/auth/google`.
-5. **Standardized Response Envelope**: All endpoints return responses formatted as:
-   ```json
-   {
-     "success": true,
-     "data": { ... },
-     "message": "Optional descriptive status message"
-   }
-   ```
-   Errors follow a structured format:
-   ```json
-   {
-     "success": false,
-     "error": {
-       "code": "ERROR_CODE_IDENTIFIER",
-       "message": "Human-readable explanation of error",
-       "details": []
-     }
-   }
-   ```
-
----
-
-## Security & Production Hardening
-
-- **HTTP Header Security**: Protected via `helmet` to mitigate cross-site scripting (XSS), MIME-type sniffing, and clickjacking attacks.
-- **Strict CORS Protection**: Whitelists authorized frontend origins with automatic trailing-slash normalization.
-- **Rate Limiting**: Throttles incoming client requests using `express-rate-limit` to prevent brute-force attacks on authentication endpoints.
-- **Sanitized Logging**: All application logging passes through `sanitizer.js` to mask sensitive JWT tokens, passwords, and API keys.
-- **SQL / NoSQL Injection Defense**: Uses Mongoose typed schemas and query sanitization to protect against operator injection attacks (`$gt`, `$ne`).
-- **Input Validation**: Employs `express-validator` to strictly validate and sanitize incoming payloads before controller execution.
-- **Safe Account Linking**: Disallows linking third-party OAuth providers to existing password accounts unless authenticated.
-- **Graceful Process Management**: Handles `SIGINT` and `SIGTERM` signals, completing in-flight requests and cleanly closing database connections.
+- **HTTP Security Headers (`Helmet`)**: Enforces `Content-Security-Policy`, `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`, and removes `X-Powered-By`.
+- **DDoS & Brute Force Defense (`express-rate-limit`)**: Limits standard endpoints to 100 requests per 15-minute window; throttles `/api/v1/auth/login` to prevent credential stuffing.
+- **SQL / NoSQL Injection Immunity**: Mongoose schema casting and strict input validation via `express-validator` prevent `$where`, `$gt`, and object-injection exploits.
+- **Sensitive Credential Sanitization**: Custom logging middleware (`sanitizer.js`) scrubs passwords, JWT tokens, OAuth codes, and authorization headers from system logs.
+- **Safe JSON Envelopes**: Errors return standardized RFC 7807-compliant JSON error shapes without leaking server directory paths or database stack traces.
 
 ---
 
 ## Future Roadmap
 
-- [ ] **Redis Distributed Cache**: Implement Redis for distributed session caching and rate-limit sharing across cluster instances.
-- [ ] **Asynchronous Message Queue**: Integrate BullMQ or RabbitMQ for decoupled background job indexing and periodic registry scraping.
-- [ ] **WebSocket Real-Time Updates**: Provide live push notifications for watchlist alerts and hiring velocity spikes using Socket.io.
-- [ ] **GraphQL Gateway**: Provide a federated GraphQL endpoint alongside REST to enable client-driven query filtering.
-- [ ] **Webhook Subscriptions**: Allow enterprise consumers to subscribe to company intelligence change events.
+- [ ] **Real-Time Notification Webhooks**: Push alerts when watched company compensation or culture metrics shift significantly.
+- [ ] **Multi-Country Statutory Filing Sync**: Direct API bridges into SEC EDGAR (10-K, 10-Q) and European registries.
+- [ ] **Predictive Culture Shift Forecasts**: Machine-learning models predicting 6-month attrition risk based on leadership turnover velocity.
+- [ ] **Semantic Vector Search**: High-performance semantic similarity matching on company review vectors using MongoDB Atlas Vector Search.
 
 ---
 
 ## Author & Acknowledgments
 
-**Hariom Jaiswal**  
-- **GitHub**: [@hariomjaiswal12](https://github.com/hariomjaiswal12)  
-- **LinkedIn**: [Hariom Jaiswal](https://www.linkedin.com/in/hariom-jaiswal-82ba74328/)  
-
-Developed as part of the **CompanyIQ** initiative — empowering students, developers, and professionals with transparent, evidence-backed workplace intelligence.
-
----
-
-<p align="center">
-  <sub>Built with precision, evidence, and mathematical integrity. Licensed under the ISC License.</sub>
-</p>
+- **Lead Engineer & System Architect**: **[Hariom Jaiswal](https://github.com/hariomjaiswal12)**
+- **Frontend Architecture**: React 19, Vite, Tailwind CSS, Lucide Icons
+- **AI Infrastructure**: Google DeepMind / Google Gemini Developer Platform
+- **License**: ISC License — Open for academic, professional, and demonstration use.
