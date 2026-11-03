@@ -629,8 +629,8 @@ npm test
 
 The CompanyIQ frontend is maintained as a separate single-page application built with React 19, TypeScript, Vite, and Tailwind CSS.
 
-- **Frontend Repository**: [https://github.com/hariomjaiswal12/hackathon-1-Hariom-jaiswal-frontend](https://github.com/hariomjaiswal12/hackathon-1-Hariom-jaiswal-frontend)
-- **Production Frontend**: [https://hackathon-2-hariom-jaiswal-frontend.vercel.app](https://hackathon-2-hariom-jaiswal-frontend.vercel.app)
+- **Frontend Repository**: [CompanyIQ-AI-Powered-Company-Intelligence-Platform](https://github.com/hariomjaiswal12/CompanyIQ-AI-Powered-Company-Intelligence-Platform) *(formerly `hackathon-1-Hariom-jaiswal-frontend`)*
+- **Live Production Application**: [https://hackathon-2-hariom-jaiswal-frontend.vercel.app](https://hackathon-2-hariom-jaiswal-frontend.vercel.app)
 
 ### Communication Contract
 The frontend communicates with this backend over HTTPS using a typed API client:
